@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        .highlight {
+            background-color: #ffcccb;
+        }
+        .elective {
+            background-color: #ccffcc;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="text-align: center;"> Time Table</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>9:00 - 10:00</td>
+                <td class="highlight">Lab</td>
+                <td>SEPM</td>
+                <td>Computer Networks</td>
+                <td>Theory of Computation</td>
+                <td class="elective">Elective</td>
+            </tr>
+            <tr>
+                <td>10:00 - 11:00</td>
+                <td>Computer Graphics</td>
+                <td class="elective">Elective</td>
+                <td>SEPM</td>
+                <td class="highlight">Lab</td>
+                <td>NSS</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

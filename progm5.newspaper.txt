@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Newspaper</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #c5139b;
+            color: #ffffff;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        /* Article Styling */
+        article {
+            background-color: #ffffff;
+            padding: 30px;
+            margin: 20px auto;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        article h2 {
+            color: #c62828;
+            font-size: 2em;
+        }
+
+        article p {
+            line-height: 1.6;
+            font-size: 1.1em;
+        }
+
+        /* Section Styling */
+        section {
+            background-color: #e0f7fa;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        section h3 {
+            color: #00796b;
+            font-size: 1.8em;
+        }
+
+        section p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: black;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1em;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            header, article, section, footer {
+                padding: 15px;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+
+            article h2, section h3 {
+                font-size: 1.5em;
+            }
+
+            article p, section p {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Modern Newspaper</h1>
+    </header>
+
+    <article>
+        <h2>Breaking News</h2>
+        <p>Today’s top story: A significant breakthrough in technology has been made, impacting industries worldwide. Stay tuned for more updates as we follow the story closely.</p>
+    </article>
+
+    <section>
+        <h3>Sports Section</h3>
+        <p>The local team secured a dramatic victory in the final minutes of the game. Fans are ecstatic as the team advances to the championship. Catch all the highlights and player interviews in this section.</p>
+    </section>
+
+    <footer>
+        <p>© 2024 Modern Newspaper. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

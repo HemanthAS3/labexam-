@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled HTML Elements</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>This is an H2 Heading</h2>
+    <h3>This is an H3 Heading</h3>
+
+    <hr>
+
+    <p>This is a paragraph with some <span>highlighted text</span> using a span element.</p>
+
+    <div>
+        <p>This paragraph is inside a div element with a background color and padding.</p>
+    </div>
+
+    <time datetime="2024-11-17">November 17, 2024</time>
+
+    <p>
+        Here is an image example:
+        <img src="Images/vtudeveloperlogo.jpg" alt="Sample Image">
+    </p>
+
+    <p>
+        Visit my <a href="https://vtudeveloper.in">website</a> for more information.
+    </p>
+
+</body>
+</html>
